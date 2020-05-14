@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cats Chart</title>
 </head>
+
 <body>
     <h1>Infamous Cat Instagram Account Chart</h1>
     <table border="1">
@@ -20,19 +22,22 @@
 
         <tbody>
             <tr>
-               <td><img src="https://66.media.tumblr.com/ac3ddb0838b2f5d2c49ee1dfd2cd429d/tumblr_p8e5w2pBVx1vvrllwo1_500.jpg" height="200px;"></td>
-               <td>Soonmoo</td>
-               <td>4</td>
-               <td><a href="https://www.instagram.com/soonmoo_cat/">@soonmoo_cat</td>
+                <td><img src="https://66.media.tumblr.com/ac3ddb0838b2f5d2c49ee1dfd2cd429d/tumblr_p8e5w2pBVx1vvrllwo1_500.jpg"
+                        height="200px;"></td>
+                <td>Soonmoo</td>
+                <td>4</td>
+                <td><a href="https://www.instagram.com/soonmoo_cat/">@soonmoo_cat</td>
             </tr>
             <tr>
-                <td><img src="https://i.pinimg.com/474x/20/3f/37/203f375273368369dca1ecda1c6979ed.jpg" height="200px;"></td>
+                <td><img src="https://i.pinimg.com/474x/20/3f/37/203f375273368369dca1ecda1c6979ed.jpg" height="200px;">
+                </td>
                 <td>Bur & Marvel</td>
                 <td>3 & 2</td>
                 <td><a href="https://www.instagram.com/bur__marvel/">@bur_marvel</a></td>
             </tr>
             <tr>
-                <td><img src="https://i.pinimg.com/474x/5e/4b/f2/5e4bf25d5ee74354064734e045cbfd34.jpg" height="200px;"></td>
+                <td><img src="https://i.pinimg.com/474x/5e/4b/f2/5e4bf25d5ee74354064734e045cbfd34.jpg" height="200px;">
+                </td>
                 <td>Curry</td>
                 <td>4</td>
                 <td><a href="https://www.instagram.com/euro_curry/">@euro_curry</a></td>
@@ -40,9 +45,37 @@
         </tbody>
     </table>
 
+    <!-- Add Youtube link -->
     <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/R3mY02RSgJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R3mY02RSgJU" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
-    
+
+    <!-- Add comment feature -->
+    <p>
+    <div id="disqus_thread"></div>
+    <script>
+
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://famouscats.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    </p>
+
 </body>
+
 </html>
